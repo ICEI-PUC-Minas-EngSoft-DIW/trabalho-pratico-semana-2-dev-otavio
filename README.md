@@ -5,5 +5,6 @@
 - Matricula:903767
 
 ## Print da tela da página criada (Curriculum Vitae)
-
+![print atividade](print1.png)
 `<Coloque aqui o print da tela de inspeção do seu navegador>`
+![print atividade](print2.png)
