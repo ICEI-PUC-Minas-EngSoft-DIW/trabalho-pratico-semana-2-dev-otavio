@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    margin-bottom: 15px;
+}
+
+.cabecalho h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.cabecalho p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.secao {
+    margin-bottom: 20px;
+}
+
+.secao h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.item-experiencia,
+.item-educacao {
+    margin-bottom: 15px;
+}
+
+.item-experiencia h3,
+.item-educacao h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.empresa-periodo,
+.instituicao-ano {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.lista-contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lista-contato li {
+    margin: 0 10px;
+}
+
+.lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.lista-habilidades li {
+    background-color: #e2e2e2;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
